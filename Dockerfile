@@ -5,4 +5,4 @@ FROM nginx:alpine
 COPY web.html /usr/share/nginx/html/
 
 # Expose port 80 to allow incoming traffic
-EXPOSE 82
+EXPOSE 80
